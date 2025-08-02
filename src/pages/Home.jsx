@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import heroImage from 'src/assets/collage.png';
+import heroImage from '../assets/collage.png'; ✅
+
 
 const Home = () => {
   return (
