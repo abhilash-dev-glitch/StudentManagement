@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import heroImage from './assets/collage.png';
 
 const Home = () => {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
 
         <div className="mt-12">
           <img
-            src="src/assets/collage.png"
+              src={heroImage}
             alt="University"
             className="w-full max-w-lg mx-auto rounded-xl shadow-lg"
           />
